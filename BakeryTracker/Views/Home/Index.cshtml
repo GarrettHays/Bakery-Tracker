@@ -4,13 +4,54 @@
     <meta charset="utf-8">
     <title>Pierre's Bakery Tracker</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+    body 
+    {
+      background-color: lightgrey;
+      opacity: 90%;
+      margin-top: 50px;
+    }
+    .container
+    {
+      text-align: center;
+    }
+    h1
+    {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      
+    }
+    h3
+    {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h5
+    {
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+    }
+    ul
+    {
+      display: table;
+      margin: 0 auto;
+    }
+    p
+    {
+      margin: 2px;
+    }
+    
+  </style>  
   </head>
   <body>
-    <h1>Pierre's Bakery Order Tracker</h1>
-    <br>
-    <h4>Welcome to the Bakery Order Tracker.</h4>
-    <h5>Please select from the following options to begin:</h5>
-    <h5><a href='/vendors'>View Vendors</a></h5>
-    <h5><a href='/vendors/new'>Add a new Vendor</a></h5>
+    <div class="container">
+      <h1>Pierre's Bakery Order Tracker</h1>
+      <br>
+      <h3>Welcome to the Bakery Order Tracker.</h3>
+      <br>
+      <h5>Please select from the following options to begin:</h5>
+      <br>
+      <a class="btn btn-primary" href='/vendors'>View Vendors</a>  
+      <a class="btn btn-primary" href='/vendors/new'>Add New Vendor</a>  
+    </div>
   </body>
 </html>
