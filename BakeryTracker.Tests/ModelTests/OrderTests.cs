@@ -90,7 +90,7 @@ namespace BakeryTracker.Tests
     }
 
     [TestMethod]
-    public void GetAll_ReturnsItems_ItemList()
+    public void GetAll_ReturnsOrders_OrderList()
     {
       //Arrange
       string title1 = "meat order";
